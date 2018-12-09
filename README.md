@@ -1,8 +1,10 @@
 # Machine-Learning
 
-This repository contains examples(code) of different machine learning algorithms
+This repository contains examples(code) of different machine learning algorithms.
 
 Created by 
 Sanjay Sane
 
-http://www.saneacademy.com
+For access to all the codes join the course
+http://www.saneacademy.com/Machine-Learning-Algorithms.html
+
