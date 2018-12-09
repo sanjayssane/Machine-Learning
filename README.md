@@ -1,6 +1,6 @@
 # Machine-Learning
 
-This repository contains examples(code) of different machine learning algorithms.
+This repository contains some examples(code) of different machine learning algorithms.
 
 Created by 
 Sanjay Sane
