@@ -1,0 +1,20 @@
+In the Python Learner, the code is:
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+X_train = input_table.drop('medv',axis=1)
+y_train = input_table['medv']
+model_rf = RandomForestRegressor(random_state=2002)
+model_rf.fit(X_train,y_train)
+output_model = model_rf
+
+
+In the Python Predictor, the code is:
+import pandas as pd
+X_test = input_table.drop('medv',axis=1)
+y_pred = input_model.predict(X_test)
+output_table=y_pred
+
+# Copy input table to output table
+output_table = input_table.copy()
+# Append predictions
+output_table['prediction'] = pd.Series(y_pred, index=output_table.index)
