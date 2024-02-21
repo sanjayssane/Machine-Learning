@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import streamlit as st 
 
-os.chdir(r"C:\Training\Academy\Statistics (Python)\Datasets")
 dia = pd.read_csv("diamonds.csv")
 
 num_columns = list(dia.dtypes[dia.dtypes != object].index)
