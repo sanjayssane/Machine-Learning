@@ -3,7 +3,7 @@ from joblib import load
 import pandas as pd 
 
 #### Deserialization
-obj_load = load(r"C:\Training\Academy\Statistics (Python)\Cases\Concrete Strength\stack-best.joblib")
+obj_load = load("stack-best.joblib")
 
 st.title("Inferencing on Concrete Mixtures")
 
