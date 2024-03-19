@@ -3,8 +3,8 @@ from joblib import load
 import pandas as pd 
 
 #### Deserialization
-obj_load = load("stack-best.joblib")
-
+#obj_load = load("stack-best.joblib")
+obj_load = load("knn.joblib")
 st.title("Inferencing on Concrete Mixtures")
 
 col1, col2, col3 = st.columns([0.3, 0.3, 0.3], gap="small")
